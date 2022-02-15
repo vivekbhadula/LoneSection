@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./CSS/styles.css" rel="stylesheet" />
+    <title>Garage Door Brand</title>
+  </head>
+  <body>
+    <div class="formContainer">
+      <form class="formFields">
+        <button type="submit" onclick="closeForm()" class="closeBtn">X</button>
+        <label for="fname">First Name : </label>
+        <input type="text" name="fname" id="fname" />
+        <label for="lname">Last Name : </label>
+        <input type="text" name="lname" id="lname" />
+        <label for="email">Email Address : </label>
+        <input type="text" name="email" id="email" />
+        <button type="submit" onclick="closeForm()" class="submitBtn">
+          Submit
+        </button>
+      </form>
+    </div>
+    <div class="greyArea">
+      <p class="heading">Australia’s most secure & trusted garage door brand</p>
+      <p class="subHeading">
+        We know that behind your garage door are the things that matter to you
+        most. The things that make your house a home. Most garage doors just
+        close but a B&D garage door can be locked securely shut.
+      </p>
+      <div class="cardContainer">
+        <div class="card">
+          <img src="/Assets/image1.png" alt="100% Guarantee" />
+          <p class="cardHeading">10 Years Warranty</p>
+          <p class="cardSubHeading">
+            All our garage doors, components, and accessories - other than
+            batteries, bulbs, or fuses - include a one to ten-year warranty.
+          </p>
+        </div>
+        <div class="card cardCenter">
+          <img src="/Assets/image2.png" alt="60 Years" />
+          <p class="cardHeading">60 years of innovation</p>
+          <p class="cardSubHeading">
+            We have been innovating garage doors since 1956, where we have grown
+            to be Australia’s original and most trusted garage door brand.
+          </p>
+        </div>
+        <div class="card">
+          <img src="/Assets/image3.png" alt="Australian Owned" />
+          <p class="cardHeading">Australian owned and designed</p>
+          <p class="cardSubHeading">
+            All our garage doors and openers are designed here in Australia
+            using premium, custom-designed components.
+          </p>
+        </div>
+      </div>
+      <button type="button" class="btn" onclick="displayForm()">
+        Our range of garage doors
+      </button>
+    </div>
+    <script src="./JS/index.js"></script>
+  </body>
+</html>
